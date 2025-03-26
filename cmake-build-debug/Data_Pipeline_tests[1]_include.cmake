@@ -1,0 +1,5 @@
+if(EXISTS "E:/Data Pipeline/cmake-build-debug/Data_Pipeline_tests[1]_tests.cmake")
+  include("E:/Data Pipeline/cmake-build-debug/Data_Pipeline_tests[1]_tests.cmake")
+else()
+  add_test(Data_Pipeline_tests_NOT_BUILT Data_Pipeline_tests_NOT_BUILT)
+endif()

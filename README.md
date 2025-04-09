@@ -122,4 +122,4 @@ The data pipeline can be used for:
 
 ## Usage
 
-After starting, the data pipeline will begin collecting, processing, and aggregating data, and then writing it to the PostgreSQL database. Ensure that you have created a `sensor_data` table in the `aggregationdb` database that matches the structure of the data being written by the pipeline.
+After starting, the data pipeline will begin collecting, processing, and aggregating data, and then writing it to the PostgreSQL database. Ensure that you have created a `sensor_data` table in the `aggregationdb` database that matches the structure of the data being written by the pipeline. The found anomalies will be recorded in \Data_Pipeline\data in JSON format.

@@ -1,1 +1,1 @@
-database_password=qasw1998qasw
+database_password=

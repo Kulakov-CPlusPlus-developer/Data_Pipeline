@@ -3,6 +3,10 @@ project(Data_Pipeline)
 
 set(CMAKE_CXX_STANDARD 20)
 
+include_directories("C:/Program Files/PostgreSQL/17/include")
+link_directories("C:/Program Files/PostgreSQL/17/lib")
+
+
 add_subdirectory(nlohmann_json)
 
 add_executable(Data_Pipeline src/main.cpp
@@ -35,11 +39,13 @@ enable_testing()
 
 target_link_libraries(Data_Pipeline PRIVATE
         nlohmann_json::nlohmann_json
+        libpq
 )
 
 target_link_libraries(Data_Pipeline_tests PRIVATE
         gtest_main
         nlohmann_json::nlohmann_json
+        libpq
 )
 
 include(GoogleTest)

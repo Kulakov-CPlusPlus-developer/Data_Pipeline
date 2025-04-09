@@ -13,11 +13,11 @@
 using namespace std;
 
 vector<LogEntry> LogParser::parseLine(LogFileReader* reader) {
+
     Anomaly_container container;
     vector<LogEntry> entries;
-    LogEntry entry;
     vector<string> tokens = reader->readLogFile();
-    string temp;
+
     mutex mtx;
     std::vector<std::thread> threads;
     size_t num_threads = std::thread::hardware_concurrency();
@@ -26,10 +26,17 @@ vector<LogEntry> LogParser::parseLine(LogFileReader* reader) {
     for (int i = 0; i < num_threads; i++) {
         size_t start = i * log_per_theard;
         size_t end = (i == num_threads - 1) ? tokens.size() : (i + 1) * log_per_theard;
-        threads.emplace_back([this, start, end, &mtx, &entries, &entry, &temp, &tokens, &container]() {
+        threads.emplace_back([this, start, end, &mtx, &entries, &tokens, &container]() {
             for (size_t token_id = start; token_id < end; ++token_id ) {
+
+
+                string temp;
+                LogEntry entry;
+
                 mtx.lock();
                 stringstream ss(tokens[token_id]);
+                mtx.unlock();
+
                 ss >> entry.ipAdress;
 
                 ss >> temp;
@@ -101,9 +108,12 @@ vector<LogEntry> LogParser::parseLine(LogFileReader* reader) {
                 istringstream cookieStream(cookie);
                 getline(cookieStream, entry.cookie);
 
+                mtx.lock();
                 container.check(entry.response_time, entry.timestamp, entry.ipAdress, entry.url, entry.time_zone);
-                entries.push_back(entry);
+                mtx.unlock();
 
+                mtx.lock();
+                entries.push_back(entry);
                 mtx.unlock();
             }
         });

@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = E$:/Data$ Pipeline/cmake-build-debug/
+cmake_ninja_workdir = E$:/Data_Pipeline/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Data_Pipeline
 
@@ -49,52 +49,52 @@ cmake_ninja_workdir = E$:/Data$ Pipeline/cmake-build-debug/
 
 build cmake_object_order_depends_target_Data_Pipeline: phony || .
 
-build CMakeFiles/Data_Pipeline.dir/src/main.cpp.obj: CXX_COMPILER__Data_Pipeline_unscanned_Debug E$:/Data$ Pipeline/src/main.cpp || cmake_object_order_depends_target_Data_Pipeline
+build CMakeFiles/Data_Pipeline.dir/src/main.cpp.obj: CXX_COMPILER__Data_Pipeline_unscanned_Debug E$:/Data_Pipeline/src/main.cpp || cmake_object_order_depends_target_Data_Pipeline
   DEP_FILE = CMakeFiles\Data_Pipeline.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -I"E:/Data Pipeline/include" -I"E:/Data Pipeline/nlohmann_json" -I"E:/Data Pipeline/nlohmann_json/include"
+  INCLUDES = -I"C:/Program Files/PostgreSQL/17/include" -IE:/Data_Pipeline/include -IE:/Data_Pipeline/nlohmann_json -IE:/Data_Pipeline/nlohmann_json/include
   OBJECT_DIR = CMakeFiles\Data_Pipeline.dir
   OBJECT_FILE_DIR = CMakeFiles\Data_Pipeline.dir\src
 
-build CMakeFiles/Data_Pipeline.dir/src/LogFileReader.cpp.obj: CXX_COMPILER__Data_Pipeline_unscanned_Debug E$:/Data$ Pipeline/src/LogFileReader.cpp || cmake_object_order_depends_target_Data_Pipeline
+build CMakeFiles/Data_Pipeline.dir/src/LogFileReader.cpp.obj: CXX_COMPILER__Data_Pipeline_unscanned_Debug E$:/Data_Pipeline/src/LogFileReader.cpp || cmake_object_order_depends_target_Data_Pipeline
   DEP_FILE = CMakeFiles\Data_Pipeline.dir\src\LogFileReader.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -I"E:/Data Pipeline/include" -I"E:/Data Pipeline/nlohmann_json" -I"E:/Data Pipeline/nlohmann_json/include"
+  INCLUDES = -I"C:/Program Files/PostgreSQL/17/include" -IE:/Data_Pipeline/include -IE:/Data_Pipeline/nlohmann_json -IE:/Data_Pipeline/nlohmann_json/include
   OBJECT_DIR = CMakeFiles\Data_Pipeline.dir
   OBJECT_FILE_DIR = CMakeFiles\Data_Pipeline.dir\src
 
-build CMakeFiles/Data_Pipeline.dir/src/LogLineProcessor.cpp.obj: CXX_COMPILER__Data_Pipeline_unscanned_Debug E$:/Data$ Pipeline/src/LogLineProcessor.cpp || cmake_object_order_depends_target_Data_Pipeline
+build CMakeFiles/Data_Pipeline.dir/src/LogLineProcessor.cpp.obj: CXX_COMPILER__Data_Pipeline_unscanned_Debug E$:/Data_Pipeline/src/LogLineProcessor.cpp || cmake_object_order_depends_target_Data_Pipeline
   DEP_FILE = CMakeFiles\Data_Pipeline.dir\src\LogLineProcessor.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -I"E:/Data Pipeline/include" -I"E:/Data Pipeline/nlohmann_json" -I"E:/Data Pipeline/nlohmann_json/include"
+  INCLUDES = -I"C:/Program Files/PostgreSQL/17/include" -IE:/Data_Pipeline/include -IE:/Data_Pipeline/nlohmann_json -IE:/Data_Pipeline/nlohmann_json/include
   OBJECT_DIR = CMakeFiles\Data_Pipeline.dir
   OBJECT_FILE_DIR = CMakeFiles\Data_Pipeline.dir\src
 
-build CMakeFiles/Data_Pipeline.dir/src/tinyfiledialogs.c.obj: C_COMPILER__Data_Pipeline_unscanned_Debug E$:/Data$ Pipeline/src/tinyfiledialogs.c || cmake_object_order_depends_target_Data_Pipeline
+build CMakeFiles/Data_Pipeline.dir/src/tinyfiledialogs.c.obj: C_COMPILER__Data_Pipeline_unscanned_Debug E$:/Data_Pipeline/src/tinyfiledialogs.c || cmake_object_order_depends_target_Data_Pipeline
   DEP_FILE = CMakeFiles\Data_Pipeline.dir\src\tinyfiledialogs.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I"E:/Data Pipeline/include" -I"E:/Data Pipeline/nlohmann_json" -I"E:/Data Pipeline/nlohmann_json/include"
+  INCLUDES = -I"C:/Program Files/PostgreSQL/17/include" -IE:/Data_Pipeline/include -IE:/Data_Pipeline/nlohmann_json -IE:/Data_Pipeline/nlohmann_json/include
   OBJECT_DIR = CMakeFiles\Data_Pipeline.dir
   OBJECT_FILE_DIR = CMakeFiles\Data_Pipeline.dir\src
 
-build CMakeFiles/Data_Pipeline.dir/src/LogParser.cpp.obj: CXX_COMPILER__Data_Pipeline_unscanned_Debug E$:/Data$ Pipeline/src/LogParser.cpp || cmake_object_order_depends_target_Data_Pipeline
+build CMakeFiles/Data_Pipeline.dir/src/LogParser.cpp.obj: CXX_COMPILER__Data_Pipeline_unscanned_Debug E$:/Data_Pipeline/src/LogParser.cpp || cmake_object_order_depends_target_Data_Pipeline
   DEP_FILE = CMakeFiles\Data_Pipeline.dir\src\LogParser.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -I"E:/Data Pipeline/include" -I"E:/Data Pipeline/nlohmann_json" -I"E:/Data Pipeline/nlohmann_json/include"
+  INCLUDES = -I"C:/Program Files/PostgreSQL/17/include" -IE:/Data_Pipeline/include -IE:/Data_Pipeline/nlohmann_json -IE:/Data_Pipeline/nlohmann_json/include
   OBJECT_DIR = CMakeFiles\Data_Pipeline.dir
   OBJECT_FILE_DIR = CMakeFiles\Data_Pipeline.dir\src
 
-build CMakeFiles/Data_Pipeline.dir/src/ChecksAnomaly.cpp.obj: CXX_COMPILER__Data_Pipeline_unscanned_Debug E$:/Data$ Pipeline/src/ChecksAnomaly.cpp || cmake_object_order_depends_target_Data_Pipeline
+build CMakeFiles/Data_Pipeline.dir/src/ChecksAnomaly.cpp.obj: CXX_COMPILER__Data_Pipeline_unscanned_Debug E$:/Data_Pipeline/src/ChecksAnomaly.cpp || cmake_object_order_depends_target_Data_Pipeline
   DEP_FILE = CMakeFiles\Data_Pipeline.dir\src\ChecksAnomaly.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -I"E:/Data Pipeline/include" -I"E:/Data Pipeline/nlohmann_json" -I"E:/Data Pipeline/nlohmann_json/include"
+  INCLUDES = -I"C:/Program Files/PostgreSQL/17/include" -IE:/Data_Pipeline/include -IE:/Data_Pipeline/nlohmann_json -IE:/Data_Pipeline/nlohmann_json/include
   OBJECT_DIR = CMakeFiles\Data_Pipeline.dir
   OBJECT_FILE_DIR = CMakeFiles\Data_Pipeline.dir\src
 
-build CMakeFiles/Data_Pipeline.dir/src/Aggregation.cpp.obj: CXX_COMPILER__Data_Pipeline_unscanned_Debug E$:/Data$ Pipeline/src/Aggregation.cpp || cmake_object_order_depends_target_Data_Pipeline
+build CMakeFiles/Data_Pipeline.dir/src/Aggregation.cpp.obj: CXX_COMPILER__Data_Pipeline_unscanned_Debug E$:/Data_Pipeline/src/Aggregation.cpp || cmake_object_order_depends_target_Data_Pipeline
   DEP_FILE = CMakeFiles\Data_Pipeline.dir\src\Aggregation.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -I"E:/Data Pipeline/include" -I"E:/Data Pipeline/nlohmann_json" -I"E:/Data Pipeline/nlohmann_json/include"
+  INCLUDES = -I"C:/Program Files/PostgreSQL/17/include" -IE:/Data_Pipeline/include -IE:/Data_Pipeline/nlohmann_json -IE:/Data_Pipeline/nlohmann_json/include
   OBJECT_DIR = CMakeFiles\Data_Pipeline.dir
   OBJECT_FILE_DIR = CMakeFiles\Data_Pipeline.dir\src
 
@@ -108,7 +108,8 @@ build CMakeFiles/Data_Pipeline.dir/src/Aggregation.cpp.obj: CXX_COMPILER__Data_P
 
 build Data_Pipeline.exe: CXX_EXECUTABLE_LINKER__Data_Pipeline_Debug CMakeFiles/Data_Pipeline.dir/src/main.cpp.obj CMakeFiles/Data_Pipeline.dir/src/LogFileReader.cpp.obj CMakeFiles/Data_Pipeline.dir/src/LogLineProcessor.cpp.obj CMakeFiles/Data_Pipeline.dir/src/tinyfiledialogs.c.obj CMakeFiles/Data_Pipeline.dir/src/LogParser.cpp.obj CMakeFiles/Data_Pipeline.dir/src/ChecksAnomaly.cpp.obj CMakeFiles/Data_Pipeline.dir/src/Aggregation.cpp.obj
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = -llibpq  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_PATH = -LC:/PROGRA~1/POSTGR~1/17/lib
   OBJECT_DIR = CMakeFiles\Data_Pipeline.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -125,10 +126,10 @@ build Data_Pipeline.exe: CXX_EXECUTABLE_LINKER__Data_Pipeline_Debug CMakeFiles/D
 
 build cmake_object_order_depends_target_Data_Pipeline_tests: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
 
-build CMakeFiles/Data_Pipeline_tests.dir/src/test.cpp.obj: CXX_COMPILER__Data_Pipeline_tests_unscanned_Debug E$:/Data$ Pipeline/src/test.cpp || cmake_object_order_depends_target_Data_Pipeline_tests
+build CMakeFiles/Data_Pipeline_tests.dir/src/test.cpp.obj: CXX_COMPILER__Data_Pipeline_tests_unscanned_Debug E$:/Data_Pipeline/src/test.cpp || cmake_object_order_depends_target_Data_Pipeline_tests
   DEP_FILE = CMakeFiles\Data_Pipeline_tests.dir\src\test.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -I"E:/Data Pipeline/nlohmann_json/include" -isystem "E:/Data Pipeline/cmake-build-debug/_deps/googletest-src/googletest/include" -isystem "E:/Data Pipeline/cmake-build-debug/_deps/googletest-src/googletest"
+  INCLUDES = -I"C:/Program Files/PostgreSQL/17/include" -IE:/Data_Pipeline/nlohmann_json/include -isystem E:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/googletest/include -isystem E:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/googletest
   OBJECT_DIR = CMakeFiles\Data_Pipeline_tests.dir
   OBJECT_FILE_DIR = CMakeFiles\Data_Pipeline_tests.dir\src
 
@@ -142,9 +143,10 @@ build CMakeFiles/Data_Pipeline_tests.dir/src/test.cpp.obj: CXX_COMPILER__Data_Pi
 
 build Data_Pipeline_tests.exe Data_Pipeline_tests[1]_tests.cmake | ${cmake_ninja_workdir}Data_Pipeline_tests[1]_tests.cmake: CXX_EXECUTABLE_LINKER__Data_Pipeline_tests_Debug CMakeFiles/Data_Pipeline_tests.dir/src/test.cpp.obj | lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
   FLAGS = -g
-  LINK_LIBRARIES = lib/libgtest_main.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = lib/libgtest_main.a  -llibpq  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_PATH = -LC:/PROGRA~1/POSTGR~1/17/lib
   OBJECT_DIR = CMakeFiles\Data_Pipeline_tests.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -D TEST_TARGET=Data_Pipeline_tests -D "TEST_EXECUTABLE=E:/Data Pipeline/cmake-build-debug/Data_Pipeline_tests.exe" -D TEST_EXECUTOR= -D "TEST_WORKING_DIR=E:/Data Pipeline/cmake-build-debug" -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=Data_Pipeline_tests_TESTS -D "CTEST_FILE=E:/Data Pipeline/cmake-build-debug/Data_Pipeline_tests[1]_tests.cmake" -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P "C:/Program Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GoogleTestAddTests.cmake""
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -D TEST_TARGET=Data_Pipeline_tests -D TEST_EXECUTABLE=E:/Data_Pipeline/cmake-build-debug/Data_Pipeline_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=E:/Data_Pipeline/cmake-build-debug -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=Data_Pipeline_tests_TESTS -D CTEST_FILE=E:/Data_Pipeline/cmake-build-debug/Data_Pipeline_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P "C:/Program Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GoogleTestAddTests.cmake""
   PRE_LINK = cd .
   RESTAT = 1
   TARGET_FILE = Data_Pipeline_tests.exe
@@ -156,7 +158,7 @@ build Data_Pipeline_tests.exe Data_Pipeline_tests[1]_tests.cmake | ${cmake_ninja
 # Utility command for test
 
 build CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
   DESC = Running tests...
   pool = console
   restat = 1
@@ -168,7 +170,7 @@ build test: phony CMakeFiles/test.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -179,7 +181,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"E:\Data Pipeline" -B"E:\Data Pipeline\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\Data_Pipeline -BE:\Data_Pipeline\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -197,7 +199,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -209,7 +211,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -221,7 +223,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -230,7 +232,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# E:/Data Pipeline/CMakeLists.txt
+# E:/Data_Pipeline/CMakeLists.txt
 # =============================================================================
 
 
@@ -238,7 +240,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 # Utility command for test
 
 build nlohmann_json/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\nlohmann_json" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\nlohmann_json && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
   DESC = Running tests...
   pool = console
   restat = 1
@@ -250,7 +252,7 @@ build nlohmann_json/test: phony nlohmann_json/CMakeFiles/test.util
 # Utility command for edit_cache
 
 build nlohmann_json/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\nlohmann_json" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\nlohmann_json && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -261,7 +263,7 @@ build nlohmann_json/edit_cache: phony nlohmann_json/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build nlohmann_json/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\nlohmann_json" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"E:\Data Pipeline" -B"E:\Data Pipeline\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\nlohmann_json && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\Data_Pipeline -BE:\Data_Pipeline\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -279,7 +281,7 @@ build nlohmann_json/list_install_components: phony
 # Utility command for install
 
 build nlohmann_json/CMakeFiles/install.util: CUSTOM_COMMAND nlohmann_json/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\nlohmann_json" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\nlohmann_json && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -291,7 +293,7 @@ build nlohmann_json/install: phony nlohmann_json/CMakeFiles/install.util
 # Utility command for install/local
 
 build nlohmann_json/CMakeFiles/install/local.util: CUSTOM_COMMAND nlohmann_json/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\nlohmann_json" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\nlohmann_json && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -303,7 +305,7 @@ build nlohmann_json/install/local: phony nlohmann_json/CMakeFiles/install/local.
 # Utility command for install/strip
 
 build nlohmann_json/CMakeFiles/install/strip.util: CUSTOM_COMMAND nlohmann_json/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\nlohmann_json" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\nlohmann_json && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -312,7 +314,7 @@ build nlohmann_json/install/strip: phony nlohmann_json/CMakeFiles/install/strip.
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# E:/Data Pipeline/CMakeLists.txt
+# E:/Data_Pipeline/CMakeLists.txt
 # =============================================================================
 
 
@@ -320,7 +322,7 @@ build nlohmann_json/install/strip: phony nlohmann_json/CMakeFiles/install/strip.
 # Utility command for test
 
 build _deps/googletest-build/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\_deps\googletest-build" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\_deps\googletest-build && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
   DESC = Running tests...
   pool = console
   restat = 1
@@ -332,7 +334,7 @@ build _deps/googletest-build/test: phony _deps/googletest-build/CMakeFiles/test.
 # Utility command for edit_cache
 
 build _deps/googletest-build/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\_deps\googletest-build" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\_deps\googletest-build && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -343,7 +345,7 @@ build _deps/googletest-build/edit_cache: phony _deps/googletest-build/CMakeFiles
 # Utility command for rebuild_cache
 
 build _deps/googletest-build/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\_deps\googletest-build" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"E:\Data Pipeline" -B"E:\Data Pipeline\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\_deps\googletest-build && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\Data_Pipeline -BE:\Data_Pipeline\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -361,7 +363,7 @@ build _deps/googletest-build/list_install_components: phony
 # Utility command for install
 
 build _deps/googletest-build/CMakeFiles/install.util: CUSTOM_COMMAND _deps/googletest-build/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\_deps\googletest-build" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\_deps\googletest-build && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -373,7 +375,7 @@ build _deps/googletest-build/install: phony _deps/googletest-build/CMakeFiles/in
 # Utility command for install/local
 
 build _deps/googletest-build/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/googletest-build/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\_deps\googletest-build" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\_deps\googletest-build && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -385,7 +387,7 @@ build _deps/googletest-build/install/local: phony _deps/googletest-build/CMakeFi
 # Utility command for install/strip
 
 build _deps/googletest-build/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/googletest-build/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\_deps\googletest-build" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\_deps\googletest-build && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -394,7 +396,7 @@ build _deps/googletest-build/install/strip: phony _deps/googletest-build/CMakeFi
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# E:/Data Pipeline/cmake-build-debug/_deps/googletest-src/CMakeLists.txt
+# E:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -406,10 +408,10 @@ build _deps/googletest-build/install/strip: phony _deps/googletest-build/CMakeFi
 
 build cmake_object_order_depends_target_gmock: phony || cmake_object_order_depends_target_gtest
 
-build _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: CXX_COMPILER__gmock_unscanned_Debug E$:/Data$ Pipeline/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
+build _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: CXX_COMPILER__gmock_unscanned_Debug E$:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
   DEP_FILE = _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\src\gmock-all.cc.obj.d
   FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
-  INCLUDES = -I"E:/Data Pipeline/cmake-build-debug/_deps/googletest-src/googlemock/include" -I"E:/Data Pipeline/cmake-build-debug/_deps/googletest-src/googlemock" -isystem "E:/Data Pipeline/cmake-build-debug/_deps/googletest-src/googletest/include" -isystem "E:/Data Pipeline/cmake-build-debug/_deps/googletest-src/googletest"
+  INCLUDES = -I"C:/Program Files/PostgreSQL/17/include" -IE:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/googlemock/include -IE:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/googlemock -isystem E:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/googletest/include -isystem E:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/googletest
   OBJECT_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock.dir
   OBJECT_FILE_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\src
 
@@ -438,10 +440,10 @@ build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Debug _deps/googletest-bu
 
 build cmake_object_order_depends_target_gmock_main: phony || cmake_object_order_depends_target_gmock cmake_object_order_depends_target_gtest
 
-build _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj: CXX_COMPILER__gmock_main_unscanned_Debug E$:/Data$ Pipeline/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
+build _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj: CXX_COMPILER__gmock_main_unscanned_Debug E$:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
   DEP_FILE = _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj.d
   FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
-  INCLUDES = -isystem "E:/Data Pipeline/cmake-build-debug/_deps/googletest-src/googlemock/include" -isystem "E:/Data Pipeline/cmake-build-debug/_deps/googletest-src/googlemock" -isystem "E:/Data Pipeline/cmake-build-debug/_deps/googletest-src/googletest/include" -isystem "E:/Data Pipeline/cmake-build-debug/_deps/googletest-src/googletest"
+  INCLUDES = -isystem "C:/Program Files/PostgreSQL/17/include" -isystem E:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/googlemock/include -isystem E:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/googlemock -isystem E:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/googletest/include -isystem E:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/googletest
   OBJECT_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir
   OBJECT_FILE_DIR = _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\src
 
@@ -466,7 +468,7 @@ build lib/libgmock_main.a: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug _deps/goo
 # Utility command for test
 
 build _deps/googletest-build/googlemock/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\_deps\googletest-build\googlemock" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\_deps\googletest-build\googlemock && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
   DESC = Running tests...
   pool = console
   restat = 1
@@ -478,7 +480,7 @@ build _deps/googletest-build/googlemock/test: phony _deps/googletest-build/googl
 # Utility command for edit_cache
 
 build _deps/googletest-build/googlemock/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\_deps\googletest-build\googlemock" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\_deps\googletest-build\googlemock && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -489,7 +491,7 @@ build _deps/googletest-build/googlemock/edit_cache: phony _deps/googletest-build
 # Utility command for rebuild_cache
 
 build _deps/googletest-build/googlemock/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\_deps\googletest-build\googlemock" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"E:\Data Pipeline" -B"E:\Data Pipeline\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\_deps\googletest-build\googlemock && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\Data_Pipeline -BE:\Data_Pipeline\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -507,7 +509,7 @@ build _deps/googletest-build/googlemock/list_install_components: phony
 # Utility command for install
 
 build _deps/googletest-build/googlemock/CMakeFiles/install.util: CUSTOM_COMMAND _deps/googletest-build/googlemock/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\_deps\googletest-build\googlemock" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\_deps\googletest-build\googlemock && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -519,7 +521,7 @@ build _deps/googletest-build/googlemock/install: phony _deps/googletest-build/go
 # Utility command for install/local
 
 build _deps/googletest-build/googlemock/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/googletest-build/googlemock/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\_deps\googletest-build\googlemock" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\_deps\googletest-build\googlemock && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -531,7 +533,7 @@ build _deps/googletest-build/googlemock/install/local: phony _deps/googletest-bu
 # Utility command for install/strip
 
 build _deps/googletest-build/googlemock/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/googletest-build/googlemock/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\_deps\googletest-build\googlemock" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\_deps\googletest-build\googlemock && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -540,7 +542,7 @@ build _deps/googletest-build/googlemock/install/strip: phony _deps/googletest-bu
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# E:/Data Pipeline/cmake-build-debug/_deps/googletest-src/googlemock/CMakeLists.txt
+# E:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/googlemock/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -552,10 +554,10 @@ build _deps/googletest-build/googlemock/install/strip: phony _deps/googletest-bu
 
 build cmake_object_order_depends_target_gtest: phony || .
 
-build _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: CXX_COMPILER__gtest_unscanned_Debug E$:/Data$ Pipeline/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
+build _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: CXX_COMPILER__gtest_unscanned_Debug E$:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
   DEP_FILE = _deps\googletest-build\googletest\CMakeFiles\gtest.dir\src\gtest-all.cc.obj.d
   FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
-  INCLUDES = -I"E:/Data Pipeline/cmake-build-debug/_deps/googletest-src/googletest/include" -I"E:/Data Pipeline/cmake-build-debug/_deps/googletest-src/googletest"
+  INCLUDES = -I"C:/Program Files/PostgreSQL/17/include" -IE:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/googletest/include -IE:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/googletest
   OBJECT_DIR = _deps\googletest-build\googletest\CMakeFiles\gtest.dir
   OBJECT_FILE_DIR = _deps\googletest-build\googletest\CMakeFiles\gtest.dir\src
 
@@ -584,10 +586,10 @@ build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug _deps/googletest-bu
 
 build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_depends_target_gtest
 
-build _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: CXX_COMPILER__gtest_main_unscanned_Debug E$:/Data$ Pipeline/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
+build _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: CXX_COMPILER__gtest_main_unscanned_Debug E$:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
   DEP_FILE = _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj.d
   FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
-  INCLUDES = -isystem "E:/Data Pipeline/cmake-build-debug/_deps/googletest-src/googletest/include" -isystem "E:/Data Pipeline/cmake-build-debug/_deps/googletest-src/googletest"
+  INCLUDES = -I"C:/Program Files/PostgreSQL/17/include" -isystem E:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/googletest/include -isystem E:/Data_Pipeline/cmake-build-debug/_deps/googletest-src/googletest
   OBJECT_DIR = _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir
   OBJECT_FILE_DIR = _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\src
 
@@ -612,7 +614,7 @@ build lib/libgtest_main.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug _deps/goo
 # Utility command for test
 
 build _deps/googletest-build/googletest/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\_deps\googletest-build\googletest" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\_deps\googletest-build\googletest && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
   DESC = Running tests...
   pool = console
   restat = 1
@@ -624,7 +626,7 @@ build _deps/googletest-build/googletest/test: phony _deps/googletest-build/googl
 # Utility command for edit_cache
 
 build _deps/googletest-build/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\_deps\googletest-build\googletest" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\_deps\googletest-build\googletest && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -635,7 +637,7 @@ build _deps/googletest-build/googletest/edit_cache: phony _deps/googletest-build
 # Utility command for rebuild_cache
 
 build _deps/googletest-build/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\_deps\googletest-build\googletest" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"E:\Data Pipeline" -B"E:\Data Pipeline\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\_deps\googletest-build\googletest && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\Data_Pipeline -BE:\Data_Pipeline\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -653,7 +655,7 @@ build _deps/googletest-build/googletest/list_install_components: phony
 # Utility command for install
 
 build _deps/googletest-build/googletest/CMakeFiles/install.util: CUSTOM_COMMAND _deps/googletest-build/googletest/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\_deps\googletest-build\googletest" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\_deps\googletest-build\googletest && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -665,7 +667,7 @@ build _deps/googletest-build/googletest/install: phony _deps/googletest-build/go
 # Utility command for install/local
 
 build _deps/googletest-build/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/googletest-build/googletest/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\_deps\googletest-build\googletest" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\_deps\googletest-build\googletest && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -677,7 +679,7 @@ build _deps/googletest-build/googletest/install/local: phony _deps/googletest-bu
 # Utility command for install/strip
 
 build _deps/googletest-build/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/googletest-build/googletest/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "E:\Data Pipeline\cmake-build-debug\_deps\googletest-build\googletest" && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\Data_Pipeline\cmake-build-debug\_deps\googletest-build\googletest && "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -713,35 +715,35 @@ build libgtest_main.a: phony lib/libgtest_main.a
 # =============================================================================
 
 #############################################
-# Folder: E:/Data Pipeline/cmake-build-debug
+# Folder: E:/Data_Pipeline/cmake-build-debug
 
 build all: phony Data_Pipeline.exe Data_Pipeline_tests.exe nlohmann_json/all _deps/googletest-build/all
 
 # =============================================================================
 
 #############################################
-# Folder: E:/Data Pipeline/cmake-build-debug/_deps/googletest-build
+# Folder: E:/Data_Pipeline/cmake-build-debug/_deps/googletest-build
 
 build _deps/googletest-build/all: phony _deps/googletest-build/googlemock/all
 
 # =============================================================================
 
 #############################################
-# Folder: E:/Data Pipeline/cmake-build-debug/_deps/googletest-build/googlemock
+# Folder: E:/Data_Pipeline/cmake-build-debug/_deps/googletest-build/googlemock
 
 build _deps/googletest-build/googlemock/all: phony lib/libgmock.a lib/libgmock_main.a _deps/googletest-build/googletest/all
 
 # =============================================================================
 
 #############################################
-# Folder: E:/Data Pipeline/cmake-build-debug/_deps/googletest-build/googletest
+# Folder: E:/Data_Pipeline/cmake-build-debug/_deps/googletest-build/googletest
 
 build _deps/googletest-build/googletest/all: phony lib/libgtest.a lib/libgtest_main.a
 
 # =============================================================================
 
 #############################################
-# Folder: E:/Data Pipeline/cmake-build-debug/nlohmann_json
+# Folder: E:/Data_Pipeline/cmake-build-debug/nlohmann_json
 
 build nlohmann_json/all: phony
 
@@ -752,14 +754,14 @@ build nlohmann_json/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent/CMakeLists.cmake.in C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GoogleTest.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake E$:/Data$ Pipeline/CMakeLists.txt E$:/Data$ Pipeline/nlohmann_json/CMakeLists.txt E$:/Data$ Pipeline/nlohmann_json/cmake/config.cmake.in E$:/Data$ Pipeline/nlohmann_json/cmake/nlohmann_jsonConfigVersion.cmake.in E$:/Data$ Pipeline/nlohmann_json/cmake/pkg-config.pc.in _deps/googletest-src/CMakeLists.txt _deps/googletest-src/googlemock/CMakeLists.txt _deps/googletest-src/googlemock/cmake/gmock.pc.in _deps/googletest-src/googlemock/cmake/gmock_main.pc.in _deps/googletest-src/googletest/CMakeLists.txt _deps/googletest-src/googletest/cmake/Config.cmake.in _deps/googletest-src/googletest/cmake/gtest.pc.in _deps/googletest-src/googletest/cmake/gtest_main.pc.in _deps/googletest-src/googletest/cmake/internal_utils.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent/CMakeLists.cmake.in C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GoogleTest.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake E$:/Data_Pipeline/CMakeLists.txt E$:/Data_Pipeline/nlohmann_json/CMakeLists.txt E$:/Data_Pipeline/nlohmann_json/cmake/config.cmake.in E$:/Data_Pipeline/nlohmann_json/cmake/nlohmann_jsonConfigVersion.cmake.in E$:/Data_Pipeline/nlohmann_json/cmake/pkg-config.pc.in _deps/googletest-src/CMakeLists.txt _deps/googletest-src/googlemock/CMakeLists.txt _deps/googletest-src/googlemock/cmake/gmock.pc.in _deps/googletest-src/googlemock/cmake/gmock_main.pc.in _deps/googletest-src/googletest/CMakeLists.txt _deps/googletest-src/googletest/cmake/Config.cmake.in _deps/googletest-src/googletest/cmake/gtest.pc.in _deps/googletest-src/googletest/cmake/gtest_main.pc.in _deps/googletest-src/googletest/cmake/internal_utils.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent/CMakeLists.cmake.in C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GoogleTest.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake E$:/Data$ Pipeline/CMakeLists.txt E$:/Data$ Pipeline/nlohmann_json/CMakeLists.txt E$:/Data$ Pipeline/nlohmann_json/cmake/config.cmake.in E$:/Data$ Pipeline/nlohmann_json/cmake/nlohmann_jsonConfigVersion.cmake.in E$:/Data$ Pipeline/nlohmann_json/cmake/pkg-config.pc.in _deps/googletest-src/CMakeLists.txt _deps/googletest-src/googlemock/CMakeLists.txt _deps/googletest-src/googlemock/cmake/gmock.pc.in _deps/googletest-src/googlemock/cmake/gmock_main.pc.in _deps/googletest-src/googletest/CMakeLists.txt _deps/googletest-src/googletest/cmake/Config.cmake.in _deps/googletest-src/googletest/cmake/gtest.pc.in _deps/googletest-src/googletest/cmake/gtest_main.pc.in _deps/googletest-src/googletest/cmake/internal_utils.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FetchContent/CMakeLists.cmake.in C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GoogleTest.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake E$:/Data_Pipeline/CMakeLists.txt E$:/Data_Pipeline/nlohmann_json/CMakeLists.txt E$:/Data_Pipeline/nlohmann_json/cmake/config.cmake.in E$:/Data_Pipeline/nlohmann_json/cmake/nlohmann_jsonConfigVersion.cmake.in E$:/Data_Pipeline/nlohmann_json/cmake/pkg-config.pc.in _deps/googletest-src/CMakeLists.txt _deps/googletest-src/googlemock/CMakeLists.txt _deps/googletest-src/googlemock/cmake/gmock.pc.in _deps/googletest-src/googlemock/cmake/gmock_main.pc.in _deps/googletest-src/googletest/CMakeLists.txt _deps/googletest-src/googletest/cmake/Config.cmake.in _deps/googletest-src/googletest/cmake/gtest.pc.in _deps/googletest-src/googletest/cmake/gtest_main.pc.in _deps/googletest-src/googletest/cmake/internal_utils.cmake: phony
 
 
 #############################################

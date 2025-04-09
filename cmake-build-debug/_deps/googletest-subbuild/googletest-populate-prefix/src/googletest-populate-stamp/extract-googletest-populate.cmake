@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "E:/Data Pipeline/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.16.0.zip" ABSOLUTE)
-get_filename_component(directory "E:/Data Pipeline/cmake-build-debug/_deps/googletest-src" ABSOLUTE)
+get_filename_component(filename "E:/Data_Pipeline/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.16.0.zip" ABSOLUTE)
+get_filename_component(directory "E:/Data_Pipeline/cmake-build-debug/_deps/googletest-src" ABSOLUTE)
 
 message(VERBOSE "extracting...
      src='${filename}'

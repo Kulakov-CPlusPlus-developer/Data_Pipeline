@@ -19,7 +19,7 @@ void LogLineProcessor::processLogLine(LogFileReader* reader) {
           cout << "Time zone: " << entry.time_zone << endl;
           cout << "Method: " << entry.method << endl;
           cout << "URL: " << entry.url << endl;
-          cout << "Status: " << entry.statusCode;
+          cout << "Status: " << entry.statusCode << endl;
           cout << "Response size: " << entry.responseSize << endl;
           cout << "Referer: " << entry.referer << endl;
           cout << "User agent: " << entry.userAgent << endl;

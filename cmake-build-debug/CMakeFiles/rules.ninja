@@ -327,7 +327,7 @@ rule CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"E:\Data Pipeline" -B"E:\Data Pipeline\cmake-build-debug"
+  command = "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\Data_Pipeline -BE:\Data_Pipeline\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

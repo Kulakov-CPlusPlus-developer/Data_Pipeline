@@ -23,7 +23,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"E:\Data Pipeline\cmake-build-debug\_deps\googletest-subbuild" -B"E:\Data Pipeline\cmake-build-debug\_deps\googletest-subbuild"
+  command = "C:\Program Files\JetBrains\CLion2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\Data_Pipeline\cmake-build-debug\_deps\googletest-subbuild -BE:\Data_Pipeline\cmake-build-debug\_deps\googletest-subbuild
   description = Re-running CMake...
   generator = 1
 

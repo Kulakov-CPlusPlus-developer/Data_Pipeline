@@ -1,4 +1,4 @@
-# Install script for directory: E:/Data Pipeline
+# Install script for directory: E:/Data_Pipeline
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/Data Pipeline/cmake-build-debug/nlohmann_json/cmake_install.cmake")
+  include("E:/Data_Pipeline/cmake-build-debug/nlohmann_json/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/Data Pipeline/cmake-build-debug/_deps/googletest-build/cmake_install.cmake")
+  include("E:/Data_Pipeline/cmake-build-debug/_deps/googletest-build/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -62,6 +62,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "E:/Data Pipeline/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "E:/Data_Pipeline/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
